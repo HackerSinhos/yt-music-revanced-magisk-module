@@ -1,6 +1,6 @@
 # YT Music Revanced Magisk Module
 [![Build Modules](https://github.com/HackerSinhos/yt-music-revanced-magisk-module/actions/workflows/build.yml/badge.svg)](https://github.com/HackerSinhos/yt-music-revanced-magisk-module/actions/workflows/build.yml)
-[![CI](https://github.com/HackerSinhos/yt-music-revanced-magisk-module/actions/workflows/ci.yml/badge.svg?event=schedule)](https://github.com/HackerSinhos/yt-music-revanced-magisk-module/actions/workflows/ci.yml)
+[![CI](https://github.com/HackerSinhos/yt-music-revanced-magisk-module/actions/workflows/ci.yml/badge.svg)](https://github.com/HackerSinhos/yt-music-revanced-magisk-module/actions/workflows/ci.yml)
 
 Extensive ReVanced builder  
 
