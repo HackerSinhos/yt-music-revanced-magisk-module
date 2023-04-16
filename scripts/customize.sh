@@ -98,4 +98,5 @@ done
 
 ui_print "* Done"
 ui_print "  by j-hc (github.com/j-hc)"
+ui_print "  rebuild for yt music by HackerSinhos (github.com/HackerSinhos)"
 ui_print " "
