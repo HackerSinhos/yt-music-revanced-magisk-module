@@ -13,7 +13,7 @@ Get the [latest YT Music CI release](https://github.com/HackerSinhos/yt-music-re
 ### **THIS REPOSITORY CONTAINS ONLY THE YT MUSIC PATCHED FROM https://github.com/j-hc/revanced-magisk-module**
 
 ## Features
- * Support all present and future ReVanced and [ReVanced Extended](https://github.com/inotia00/revanced-patches) apps
+ * Support only Youtube Music Revenced app
  * Can build Magisk modules and non-root APKs
  * Updated daily with the latest versions of apps and patches
  * Optimize APKs and modules for size
