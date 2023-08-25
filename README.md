@@ -2,7 +2,7 @@
 [![Build Modules](https://github.com/HackerSinhos/yt-music-revanced-magisk-module/actions/workflows/build.yml/badge.svg)](https://github.com/HackerSinhos/yt-music-revanced-magisk-module/actions/workflows/build.yml)
 [![CI](https://github.com/HackerSinhos/yt-music-revanced-magisk-module/actions/workflows/ci.yml/badge.svg)](https://github.com/HackerSinhos/yt-music-revanced-magisk-module/actions/workflows/ci.yml)
 
-### !! THE BUILDING PROCESS IT'S NOT WORKING PLEASE WAIT WHILE I'LL 
+### !! THE BUILDING PROCESS IT'S NOT WORKING PLEASE WAIT WHILE I'LL FIX IT !!
 
 Extensive ReVanced builder  
 
