@@ -1,6 +1,4 @@
 # YT Music Revanced Magisk Module
-[![Build Modules](https://github.com/HackerSinhos/yt-music-revanced-magisk-module/actions/workflows/build.yml/badge.svg)](https://github.com/HackerSinhos/yt-music-revanced-magisk-module/actions/workflows/build.yml)
-[![CI](https://github.com/HackerSinhos/yt-music-revanced-magisk-module/actions/workflows/ci.yml/badge.svg)](https://github.com/HackerSinhos/yt-music-revanced-magisk-module/actions/workflows/ci.yml)
 
 ### !! THIS REPOSITORY HAS BEEN ARCHIVED. NO MOE UPDATES. THANKS FOR LOOKING HERE :D !!
 ### YOU CAN USE [YT Music](https://crowdin.com/project/revanced-music-extended) REPO!
