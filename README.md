@@ -1,6 +1,5 @@
 # YT Music Revanced Magisk Module
 
-### !! THIS REPOSITORY HAS BEEN ARCHIVED. NO MORE UPDATES. THANKS FOR LOOKING HERE :D !!
 ### YOU CAN USE [YT Music](https://crowdin.com/project/revanced-music-extended) REPO!
 
 Extensive ReVanced builder  
