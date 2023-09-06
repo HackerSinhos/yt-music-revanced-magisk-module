@@ -2,10 +2,11 @@ name: CI
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 15 * * *"
+    - cron: "0 16 * * *"
 
 jobs:
   check:
+    permissions: write-all
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -21,7 +22,6 @@ jobs:
         run: |
           source utils.sh
           toml_prep "$(cat config.toml)"
-
           is_youtube_latest() {
             t=$(toml_get_table YouTube)
             v=$(toml_get "$t" "version") || v=""
@@ -38,18 +38,16 @@ jobs:
               return 1 # not experimental, dont build
             fi
           }
-
           is_patches_latest() {
-            PATCHES_SRC=$(toml_get "$(toml_get_table "")" patches-source) || PATCHES_SRC="revanced/revanced-patches"
+            PATCHES_SRC=$(toml_get "$(toml_get_table "")" patches-source) || PATCHES_SRC="ReVanced/revanced-patches"
             last_patches_url=$(gh_req https://api.github.com/repos/${PATCHES_SRC}/releases/latest - | json_get 'browser_download_url' | grep 'jar')
             last_patches=${last_patches_url##*/}
-            cur_patches=$(sed -n 's/.*Patches: \(.*\)/\1/p' build.md | xargs)
-
+            cur_patches=$(sed -n "s/.*Patches: ${PATCHES_SRC%%/*}\/\(.*\)/\1/p" build.md | xargs)
             echo "current patches version: $cur_patches"
             echo "latest patches version: $last_patches"
+            if [ -z "$cur_patches" ] || [ -z "$last_patches" ]; then return 1; fi
             [ "$cur_patches" != "$last_patches" ] # test success=>build, fail=>dont build
           }
-
           if ! git checkout update; then
             echo "first time building!"
             echo "SHOULD_BUILD=1" >> $GITHUB_OUTPUT
@@ -60,7 +58,11 @@ jobs:
             echo "dont build!"
             echo "SHOULD_BUILD=0" >> $GITHUB_OUTPUT
           fi
-
+      - name: Clear older runs
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh run list -L400 --json databaseId -q '.[].databaseId' | tail -n+10 | xargs -IID gh api "repos/$(gh repo view --json nameWithOwner -q .nameWithOwner)/actions/runs/ID" -X DELETE || :
     outputs:
       SHOULD_BUILD: ${{ steps.should_build.outputs.SHOULD_BUILD }}
 
@@ -69,4 +71,4 @@ jobs:
     needs: check
     uses: ./.github/workflows/build.yml
     if: ${{ needs.check.outputs.SHOULD_BUILD == 1 }}
-    secrets: inherit
+    secrets: inher
