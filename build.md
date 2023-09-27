@@ -1,16 +1,19 @@
-CLI: revanced-cli-2.23.0-all.jar  
-Integrations: revanced-integrations-0.112.0.apk  
-Patches: revanced-patches-2.184.0.jar  
+Music-Extended (arm64-v8a): 6.20.51
+Music-Extended (arm-v7a): 6.20.51
+Music (arm64-v8a): 6.20.51
+Music (arm-v7a): 6.20.51
 
-### [2.184.0](https://github.com/revanced/revanced-patches/compare/v2.183.1...v2.184.0) (2023-07-11)
-### Features
-* **youtube/custom-branding:** update logo ([e2187f3](https://github.com/revanced/revanced-patches/commit/e2187f33ff82fce40592517aef31cb191b42987c))
+Install Vanced Microg for non-root YouTube or YT Music
 
-  
-**App Versions:**  
-Music (arm64-v8a): 6.10.51  
-Music (arm-v7a): 6.10.51  
+yt-music-revanced-magisk-module
 
-Install [Vanced Microg](https://github.com/TeamVanced/VancedMicroG/releases) to be able to use non-root YouTube or Music  
+Changelog:
+CLI: inotia00/revanced-cli-3.1.2-all.jar
+Integrations: inotia00/revanced-integrations-0.117.12.apk
+Patches: inotia00/revanced-patches-2.190.12.jar
+Changelog
 
-[yt-music-revanced-magisk-module](https://github.com/HackerSinhos/yt-music-revanced-magisk-module)  
+CLI: j-hc/revanced-cli-3.2.0-all.jar
+Integrations: ReVanced/revanced-integrations-0.117.1.apk
+Patches: ReVanced/revanced-patches-2.190.0.jar
+Changelog
