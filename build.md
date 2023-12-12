@@ -13,7 +13,7 @@ Integrations: inotia00/revanced-integrations-0.127.1.apk
 Patches: inotia00/revanced-patches-2.204.1.jar  
 [Changelog](https://github.com/inotia00/revanced-patches/releases/tag/v2.204.1)
 
-CLI: j-hc/revanced-cli-4.1.0-all.jar  
-Integrations: ReVanced/revanced-integrations-0.125.0.apk  
-Patches: ReVanced/revanced-patches-2.202.0.jar  
-[Changelog](https://github.com/ReVanced/revanced-patches/releases/tag/v2.202.0)  
+CLI: j-hc/revanced-cli-4.3.0-all.jar  
+Integrations: ReVanced/revanced-integrations-1.0.0.apk  
+Patches: ReVanced/revanced-patches-3.0.1.jar  
+[Changelog](https://github.com/ReVanced/revanced-patches/releases/tag/v3.0.1)  
