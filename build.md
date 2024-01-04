@@ -1,7 +1,5 @@
-Music-Extended (arm64-v8a): 6.31.55  
-Music-Extended (arm-v7a): 6.31.55  
-Music (arm64-v8a): 6.31.55  
-Music (arm-v7a): 6.31.55  
+Music-Extended (arm64-v8a): 6.33.50  
+Music (arm64-v8a): 6.33.50  
 
 Install [Vanced Microg](https://github.com/TeamVanced/VancedMicroG/releases) for non-root YouTube or YT Music  
 
@@ -9,9 +7,9 @@ Install [Vanced Microg](https://github.com/TeamVanced/VancedMicroG/releases) for
 
 Changelog:  
 CLI: inotia00/revanced-cli-4.4.1-all.jar  
-Integrations: inotia00/revanced-integrations-0.131.1.apk  
-Patches: inotia00/revanced-patches-2.209.1.jar  
-[Changelog](https://github.com/inotia00/revanced-patches/releases/tag/v2.209.1)
+Integrations: inotia00/revanced-integrations-0.132.1.apk  
+Patches: inotia00/revanced-patches-2.210.1.jar  
+[Changelog](https://github.com/inotia00/revanced-patches/releases/tag/v2.210.1)
 
 CLI: j-hc/revanced-cli-4.3.0-all.jar  
 Integrations: ReVanced/revanced-integrations-1.1.0.apk  
