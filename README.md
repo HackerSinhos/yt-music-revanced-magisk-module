@@ -1,23 +1,41 @@
-# YT Music Revanced Magisk Module
+#### ⚠️ Do not download modules from 3rd party sources like random websites you found on Google. There are many that uses j-hc modules and impersonates ReVanced.
 
-### YOU CAN USE [YT Music](https://crowdin.com/project/revanced-music-extended) REPO!
-
-Extensive ReVanced builder  
-
+# YT Music ReVanced Magisk Module
+[![CI](https://github.com/HackerSinhos/yt-music-revanced-magisk-module/actions/workflows/ci.yml/badge.svg?event=schedule)](https://github.com/HackerSinhos/yt-music-revanced-magisk-module/actions/workflows/ci.yml)
+  
 Get the [latest YT Music CI release](https://github.com/HackerSinhos/yt-music-revanced-magisk-module/releases).
 
-[**mindetach module**](https://github.com/j-hc/mindetach-magisk) in the releases section detaches YouTube and YouTube Music from Play Store and blocks it from updating them.
+Use [**zygisk-detach**](https://github.com/j-hc/zygisk-detach) to detach YouTube and YT Music from Play Store if you are using magisk modules.
 
 ### **THIS REPOSITORY CONTAINS ONLY THE YT MUSIC PATCHED FROM https://github.com/j-hc/revanced-magisk-module**
 
-## Features
- * Support only Youtube Music Revenced app
- * Can build Magisk modules and non-root APKs
- * Updated daily with the latest versions of apps and patches
- * Optimize APKs and modules for size
- * Modules
-     * recompile invalidated odex for faster usage
-     * receive updates from Magisk app
-     * do not break safetynet or trigger root detections
-     * handle installation of the correct version of the stock app and all that
-     * support Magisk and KernelSU
+<details><summary><big>Features</big></summary>
+<ul>
+ <li>Support only present and future YT Music ReVanced and <a href="https://github.com/inotia00/revanced-patches"> YT Music ReVanced Extended</a> apps</li>
+ <li> Can build Magisk modules and non-root APKs</li>
+ <li> Updated daily with the latest versions of apps and patches</li>
+ <li> Optimize APKs and modules for size</li>
+ <li> Modules</li>
+    <ul>
+     <li> recompile invalidated odex for faster usage</li>
+     <li> receive updates from Magisk app</li>
+     <li> do not break safetynet or trigger root detections</li>
+     <li> handle installation of the correct version of the stock app and all that</li>
+     <li> support Magisk and KernelSU</li>
+    </ul>
+</ul>
+Note that the <a href="../../actions/workflows/ci.yml">CI workflow</a> is scheduled to build the modules and APKs everyday using GitHub Actions if there is a change in ReVanced patches. You may want to disable it.
+</details>
+
+## Building Locally
+### On Termux
+```console
+bash <(curl -sSf https://raw.githubusercontent.com/j-hc/revanced-magisk-module/main/build-termux.sh)
+```
+
+### On Desktop
+```console
+$ git clone https://github.com/j-hc/revanced-magisk-module
+$ cd revanced-magisk-module
+$ ./build.sh
+```
