@@ -30,12 +30,12 @@ Note that the <a href="../../actions/workflows/ci.yml">CI workflow</a> is schedu
 ## Building Locally
 ### On Termux
 ```console
-bash <(curl -sSf https://raw.githubusercontent.com/j-hc/revanced-magisk-module/main/build-termux.sh)
+bash <(curl -sSf https://raw.githubusercontent.com/HackerSinhos/yt-music-revanced-magisk-module/main/build-termux.sh)
 ```
 
 ### On Desktop
 ```console
-$ git clone https://github.com/j-hc/revanced-magisk-module
-$ cd revanced-magisk-module
+$ git clone https://github.com/HackerSinhos/yt-music-revanced-magisk-module
+$ cd yt-music-revanced-magisk-module
 $ ./build.sh
 ```
