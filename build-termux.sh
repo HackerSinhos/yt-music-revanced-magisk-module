@@ -26,21 +26,21 @@ if [ ! -f ~/.rvmm_"$(date '+%Y%m')" ]; then
 fi
 
 if [ -f build.sh ]; then cd ..; fi
-if [ -d revanced-magisk-module ]; then
-	pr "Checking for revanced-magisk-module updates"
-	git -C revanced-magisk-module fetch
-	if git -C revanced-magisk-module status | grep -q 'is behind'; then
-		pr "revanced-magisk-module already is not synced with upstream."
-		pr "Cloning revanced-magisk-module. config.toml will be preserved."
-		cp -f revanced-magisk-module/config.toml .
-		rm -rf revanced-magisk-module
+if [ -d yt-music-revanced-magisk-module ]; then
+	pr "Checking for yt-music-revanced-magisk-module updates"
+	git -C yt-music-revanced-magisk-module fetch
+	if git -C yt-music-revanced-magisk-module status | grep -q 'is behind'; then
+		pr "yt-music-revanced-magisk-module already is not synced with upstream."
+		pr "Cloning yt-music-revanced-magisk-module. config.toml will be preserved."
+		cp -f yt-music-revanced-magisk-module/config.toml .
+		rm -rf yt-music-revanced-magisk-module
 		git clone https://github.com/HackerSinhos/yt-music-revanced-magisk-module --recurse --depth 1
-		mv -f config.toml revanced-magisk-module/config.toml
+		mv -f config.toml yt-music-revanced-magisk-module/config.toml
 	fi
 else
-	pr "Cloning revanced-magisk-module."
+	pr "Cloning yt-music-revanced-magisk-module."
 	git clone https://github.com/HackerSinhos/yt-music-revanced-magisk-module --recurse --depth 1
-	sed -i '/^enabled.*/d; /^\[.*\]/a enabled = false' revanced-magisk-module/config.toml
+	sed -i '/^enabled.*/d; /^\[.*\]/a enabled = false' yt-music-revanced-magisk-module/config.toml
 fi
 cd yt-music-revanced-magisk-module
 chmod +x build.sh build-termux.sh
