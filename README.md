@@ -2,12 +2,14 @@
 
 # YT Music ReVanced Magisk Module
 [![CI](https://github.com/HackerSinhos/yt-music-revanced-magisk-module/actions/workflows/ci.yml/badge.svg?event=schedule)](https://github.com/HackerSinhos/yt-music-revanced-magisk-module/actions/workflows/ci.yml)
-  
-Get the [latest YT Music CI release](https://github.com/HackerSinhos/yt-music-revanced-magisk-module/releases).
 
-Use [**zygisk-detach**](https://github.com/j-hc/zygisk-detach) to detach YouTube and YT Music from Play Store if you are using magisk modules.
+Extensive ReVanced builder  
 
 ### **THIS REPOSITORY CONTAINS ONLY THE YT MUSIC PATCHED FROM https://github.com/j-hc/revanced-magisk-module**
+
+Get the [latest CI release](https://github.com/HackerSinhos/yt-music-revanced-magisk-module/releases).
+
+Use [**zygisk-detach**](https://github.com/j-hc/zygisk-detach) to detach YouTube and YT Music from Play Store if you are using magisk modules. 
 
 <details><summary><big>Features</big></summary>
 <ul>
