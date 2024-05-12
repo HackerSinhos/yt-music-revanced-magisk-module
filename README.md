@@ -1,5 +1,3 @@
-#### ⚠️ Do not download modules from 3rd party sources like random websites you found on Google. There are many that uses j-hc modules and impersonates ReVanced.
-
 # YT Music ReVanced Magisk Module
 [![CI](https://github.com/HackerSinhos/yt-music-revanced-magisk-module/actions/workflows/ci.yml/badge.svg?event=schedule)](https://github.com/HackerSinhos/yt-music-revanced-magisk-module/actions/workflows/ci.yml)
 
