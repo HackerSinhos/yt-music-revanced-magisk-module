@@ -1,6 +1,6 @@
 {
-  "version": "v8.05.51 (patches: 5.26.0)",
-  "versionCode": 20221001,
-  "zipUrl": "https://github.com/HackerSinhos/yt-music-revanced-magisk-module/releases/download/20221001/music-revanced-magisk-v8.05.51-arm-v7a.zip",
+  "version": "v8.05.51 (patches: 5.27.0)",
+  "versionCode": 20221002,
+  "zipUrl": "https://github.com/HackerSinhos/yt-music-revanced-magisk-module/releases/download/20221002/music-revanced-magisk-v8.05.51-arm-v7a.zip",
   "changelog": "https://raw.githubusercontent.com/HackerSinhos/yt-music-revanced-magisk-module/update/build.md"
 }
