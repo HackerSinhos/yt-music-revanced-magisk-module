@@ -1,6 +1,6 @@
 {
-  "version": "v8.47.56 (patches 1.26.0.mpp)",
-  "versionCode": 20221027,
-  "zipUrl": "https://github.com/HackerSinhos/yt-music-revanced-magisk-module/releases/download/20221027/music-morphe-module-v8.47.56-arm-v7a.zip",
+  "version": "v8.47.56 (patches 1.27.0.mpp)",
+  "versionCode": 20221028,
+  "zipUrl": "https://github.com/HackerSinhos/yt-music-revanced-magisk-module/releases/download/20221028/music-morphe-module-v8.47.56-arm-v7a.zip",
   "changelog": "https://raw.githubusercontent.com/HackerSinhos/yt-music-revanced-magisk-module/update/build.md"
 }
